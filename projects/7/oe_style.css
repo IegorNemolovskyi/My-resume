@@ -131,6 +131,17 @@ body {
   width: 100%;
 }
 
+.page_list {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.page_list li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*FOOTER SETTINGS*/
 footer {
   text-align: center;
