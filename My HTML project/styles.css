@@ -1,1 +1,180 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');@import url('https://fonts.googleapis.com/css?family=Righteous');* {  box-sizing: border-box;  font-family: 'Nunito', sans-serif;	color: #566573  ;}html, body {  margin: 0;  padding:0;}html {  position: relative;  min-height: 100%;}body {  margin-bottom: 60px;}.nav ul {margin: 0;}.nav li {  display: inline;}.nav a {  display: inline-block;  padding: .5em;  color: white;  text-decoration: none;}.main-nav {  text-align: center;  font-size: 1.1em;  font-weight: lighter;  border-bottom: 1px solid rgba(225, 255, 255, .3);}.main-nav li {  padding: 0 5%;}.nav a:hover {  background-color: rgba(255, 255, 255, .3);}.main-header {  background-color: rgba(0, 0, 0, .3);  background-image: url("img/Header-Background-Image.png");  background-blend-mode: multiply;  background-size: cover;  padding-bottom: 15px;}.main-topic{  text-align: center;  margin: 0;  font-size: 4em;  font-family: 'Righteous', cursive;  font-weight: normal;  color: white;}.container {  max-width: 800px;  margin: 0 auto;  padding: 0 1.5em;  text-align: justify;}.name{  text-align: center;  margine: 10px 10px;  font-size: 2.5em;}.section-header{  font-size: 1.2em;  color:#333;  }.contact-table{  width: 90%;  table-layout: fixed;}.contact-item{  display: inline-block;  width: 80px;  font-weight: bold;}.contact-data{  width: 70%;}.image{  float: right;  width: 250px;  padding-left: 10px;  padding-bottom: 10px;}.main-footer{  background-color: rgba(0, 0, 0, .3);  background-image: url("img/Header-Background-Image.png");  background-blend-mode: multiply;  color: white;  padding: .25em .25em;  text-align: center;  position: absolute;  bottom: 0;  width: 100%;  heigh: 60px;  padding: 0;  margin: 0;}.footer-nav img{  width:30px;  heigh:30px;  vertical-align: middle;  margin: 0 50px;}.skills {  padding: .5em 0;  border-bottom: 1px solid rgba(86, 101, 115, .3);}.skills:last-child{  border-bottom: none;}.skill{  padding-right: .5em;  display: inline-block;  width: 30%;  font-weight: bold;}.skill-items{  max-width: 65%;}.work-experience{  font-weight: bold;}.ed-year{  font-weight: bold;  padding-right: .5em;  width:10%;}.ed-dash{  padding-right: .5em;  max-width: 2%;}.education{  padding: .5em 0;  border-bottom: 1px solid rgba(86, 101, 115, .3);}.education:last-child{  border-bottom: none;}
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+/*GENEREL SETTINGS*/
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #566573;
+}
+
+html, body {
+  margin: 0;
+  padding:0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*BODY SETTINGS*/
+  /*HEADER SETTINGS*/
+.main-header {
+  background-color: rgba(0, 0, 0, .3);
+  background-image: url("img/Header-Background-Image.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 15px;
+}
+
+.nav ul {
+margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(225, 255, 255, .3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.main-topic {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  color: white;
+}
+  /*MAIN SETTINGS*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  text-align: justify;
+}
+
+.name {
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 2.5em;
+}
+
+.section-header {
+  font-size: 1.2em;
+  color:#333;
+  }
+
+.contact-table {
+  width: 90%;
+  table-layout: fixed;
+}
+
+.contact-item {
+  display: inline-block;
+  width: 80px;
+  font-weight: bold;
+}
+
+.contact-data {
+  width: 70%;
+}
+
+.image {
+  float: right;
+  width: 250px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.skills {
+  padding: .5em 0;
+  border-bottom: 1px solid rgba(86, 101, 115, .3);
+}
+
+.skills:last-child {
+  border-bottom: none;
+}
+
+.skill {
+  padding-right: .5em;
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+}
+
+.skill-items {
+  max-width: 65%;
+}
+
+.work-experience {
+  font-weight: bold;
+}
+
+.ed-year {
+  font-weight: bold;
+  padding-right: .5em;
+  width:10%;
+}
+
+.ed-dash {
+  padding-right: .5em;
+  max-width: 2%;
+}
+
+.education {
+  padding: .5em 0;
+  border-bottom: 1px solid rgba(86, 101, 115, .3);
+}
+
+.education:last-child {
+  border-bottom: none;
+}
+
+/*FOOTER SETTINGS*/
+.main-footer {
+  background-color: rgba(0, 0, 0, .3);
+  background-image: url("img/Header-Background-Image.png");
+  background-blend-mode: multiply;
+  color: white;
+  padding: .25em .25em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav img {
+  width:30px;
+  height:30px;
+  vertical-align: middle;
+  margin: 0 50px;
+}
