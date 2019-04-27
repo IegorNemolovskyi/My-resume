@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="description" content="This is my learning HTML project">
+    <meta name="author" content="Iegor Nemolovskyi">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles.css"/>
+    <title>RESUME| Input & Forms</title>
+  </head>
+  <body style="background-color: #CFDBFF">
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../about.html">ABOUT</a></li>
+          <li><a href="../projects.html">PROJECTS</a></li>
+        </ul>
+      </nav>
+      <h1 class="main-topic">INPUT & FORMS</h1>
+    </header>
+    <main class="container">
+      <article>
+        <section>
+          <p>Below You can find the results of my work using HTML to create input and forms</p>
+          <input type="search" name="search-box" placeholder="Search..."/>
+        </section>
+        <hr/>
+        <section>
+          <p>Please, login to <b>section 1</b>:</p>
+          <table align="center" style="color: #B3FFFE; background-color:#0F1C1C">
+            <tr>
+              <td>Please, enter your login here:</td>
+              <td><input type="text" value="enter your login" style="color: #ECECEC; background-color: #B2BCBC"/></td>
+            </tr>
+            <tr>
+              <td>Please, enter your password here:</td>
+              <td><input type="password" style="background-color: #B2BCBC"/></td>
+            </tr>
+            <tr>
+              <td>Please, repeat your password here:</td>
+              <td><input type="password" style="background-color: #B2BCBC"/></td>
+            </tr>
+          </table>
+        </section>
+        <hr/>
+        <section>
+          <p>Please, login to <b>section 2</b>:</p>
+          <table align="center" style="color: #B3FFFE; background-color:#0F1C1C">
+            <tr>
+              <td>Please, enter your login here:</td>
+              <td><input type="text" value="enter your login" style="color: #CDCDCD"/></td>
+            </tr>
+            <tr>
+              <td>Please, enter your password here:</td>
+              <td><input type="password"/></td>
+            </tr><tr>
+              <td>Please, repeat your password here:</td>
+              <td><input type="password"/></td>
+            </tr>
+          </table>
+        </section>
+        <hr/>
+        <section>
+          <p>Please, login to <b>section 3</b>:</p>
+          <table align="center" style="color: #B3FFFE; background-color:#0F1C1C">
+            <tr>
+              <td>Please, enter your login here:</td>
+              <td><input type="text" value="enter your login" style="color: #ECECEC; background-color: #B2BCBC"/></td>
+            </tr>
+            <tr>
+              <td>Please, enter your password here:</td>
+              <td><input type="password" style="background-color: #B2BCBC"/></td>
+            </tr><tr>
+              <td>Please, repeat your password here:</td>
+              <td><input type="password" style="background-color: #B2BCBC"/></td>
+            </tr>
+          </table>
+        </section>
+        <hr/>
+        <article>
+          <form>
+            <section>
+              <p><i><b><big>Please provide us information about you</big></b></i></p>
+              <form>
+                <label>Please, input your full name:</label><br/>
+                <input name="username" type="text" placeholder="First and Last name" required/>
+              </form>
+              <form>
+                <label>Please select your date of birht:</label><br/>
+                <input name="user-date-of-birth" type="date" required/>
+              </form>
+              <form>
+                <label>Please, input yout phone number:</label><br/>
+                <input name="user-phone" type="tel" placeholder="+X-(XXXX)-XXX-XX-XX"/>
+              </form>
+              <form>
+                <label>Please, input your email:</label><br/>
+                <input name="user-email" type="email" placeholder="example@mail.com" required/>
+              </form>
+              <form>
+                <label>Please, provide brief information about you (hobbies, goals, family):</label><br/>
+                <textarea name="user-info"ows="10" cols="100" placeholder="Please, start typing here ..."></textarea>
+              </form>
+              <form>
+                <label>Please, describe your education:</label><br/>
+                <textarea name="user-education" rows="10" cols="100" placeholder="Please, start typing here ..."></textarea>
+              </form>
+              <form>
+                <label>Please, describe your work experience:</label><br/>
+                <textarea name="user-experience" rows="10" cols="100" placeholder="Please, start typing here ..."></textarea>
+              </form>
+              <form>
+                <label>Please, select your wage (from 0 to 10k $)</label><br/>
+                <input name="user-wage" type="range"/>
+              </form>
+              <form>
+                <label>Please, download your files (resume, application, other ...):</label>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+              </form>
+            </section>
+            <section>
+              <p><i><b><big>Please provide us information about your spouse</big></b></i></p>
+              <form>
+                <label>Please, input your spouse full name:</label><br/>
+                <input name="spousename" type="text" placeholder="First and Last name"/>
+              </form>
+              <form>
+                <label>Please select your spouse date of birht:</label><br/>
+                <input name="spouse-date-of-birth" type="date"/>
+              </form>
+              <form>
+                <label>Please, describe your spouse education:</label><br/>
+                <textarea name="spouse-education" rows="10" cols="100" placeholder="Please, start typing here ..."></textarea>
+              </form>
+              <form>
+                <label>Please, describe your spouse work experience:</label><br/>
+                <textarea name="spouse-experience" rows="10" cols="100" placeholder="Please, start typing here ..."></textarea>
+              </form>
+              <form>
+                <label>Please, select your spouse wage (from 0 to 10k $)</label><br/>
+                <input name="spouse-wage" type="range"/>
+              </form>
+              <form>
+                <label>Please, download your spouse files (resume, application, other ...):</label>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+                <p><input type="file"/></p>
+              </form>
+            </section>
+            <section>
+              <p>How many children you have?:</p>
+              <p><input type="radio" name="kids"/> - 0<br/><input type="radio" name="kids"/> - 1-3<br/><input type="radio" name="kids"/> - more than 3</p>
+              <p>Do your family own an accomodation?:</p>
+              <input type="radio" name="accomodation"/> - YES
+              <input type="radio" name="accomodation"/> - NO
+              <p>Do your family own a car?:</p>
+              <input type="radio" name="car"/> - YES
+              <input type="radio" name="car"/> - NO
+              <p>Do your family have enough finances?:</p>
+              <input type="radio" name="finances"/> - YES
+              <input type="radio" name="finances"/> - NO
+              <p>Please, select documents that you ready to provide us:</p>
+              <p><input type="checkbox" name="docs"/> - Application form</p>
+              <p><input type="checkbox" name="docs"/> - Scan of signed pages of this application</p>
+              <p><input type="checkbox" name="docs"/> - C.V. or resume</p>
+              <p><input type="checkbox" name="docs"/> - Scanned copy of IELTS results</p>
+              <p><input type="checkbox" name="docs"/> - Passport</p>
+              <p><input type="checkbox" name="docs"/> - Scanned copy of Bank statement proving adequate settlement funds</p>
+              <p><input type="checkbox" name="docs"/> - Educational Equivalency document (ex. WES, IQAS)</p>
+              <p>Please, select country you want to visit:</p>
+              <p><input type="checkbox" name="country of origin"/> - Ukraine</p>
+              <p><input type="checkbox" name="country of origin"/> - Georgia</p>
+              <p><input type="checkbox" name="country of origin"/> - The United States of America</p>
+              <p><input type="checkbox" name="country of origin"/> - Canada</p>
+              <p><input type="checkbox" name="country of origin"/> - Great Britian</p>
+              <p><input type="checkbox" name="country of origin"/> - Germany</p>
+              <p>Please, select <span style="color:red"><b>current</b></span> date:</p>
+              <input type="date"/>
+            </section>
+            <p>I confirm provided information: <input type="submit" name="submit-button"/></p>
+          </form>
+        </article>
+      </article>
+    </main>
+    <footer class="main-footer">
+      <div>
+        <nav class="nav footer-nav">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/iegor-nemolovskyi-600875125/" target="_blank">
+                <img src="https://image.flaticon.com/icons/png/512/61/61109.png" alt="Linkedin"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/IegorN" target="_blank">
+                <img src="https://image.flaticon.com/icons/png/512/23/23681.png" alt="Twitter"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/iegor.nemolovskyi" target="_blank">
+                <img src="https://image.flaticon.com/icons/png/512/33/33702.png" alt="Facebook"/>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
