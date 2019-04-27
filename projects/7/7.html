@@ -1,47 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head class="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
-    <meta name="description" content="This is my learning HTML project">
+    <meta name="description" content="This is my learning project">
     <meta name="author" content="Iegor Nemolovskyi">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../styles.css"/>
-    <title>RESUME | CSS Box Model</title>
+    <link rel="stylesheet" href="oe_style.css"/>
+    <title>RESUME | "Music band"</title>
   </head>
   <body>
-    <header class="main-header">
-    <nav class="nav main-nav">
-      <ul>
-        <li><a href="../../index.html">HOME</a></li>
-        <li><a href="../../about.html">ABOUT</a></li>
-        <li><a href="../projects.html">PROJECTS</a></li>
-      </ul>
-    </nav>
-    <h1 class="main-topic">Band web-page</h1>
-  </header>
-  </body>
-  <footer class="main-footer">
-    <div>
-      <nav class="nav footer-nav">
-        <ul>
-          	<li>
-            <a href="https://www.linkedin.com/in/iegor-nemolovskyi-600875125/" target="_blank">
-              <img src="https://image.flaticon.com/icons/png/512/61/61109.png" alt="Linkedin"/>
-            </a>
-          </li>
-          	<li>
-            <a href="https://twitter.com/IegorN" target="_blank">
-              <img src="https://image.flaticon.com/icons/png/512/23/23681.png" alt="Twitter"/>
-            </a>
-          </li>
-      	    <li>
-            <a href="https://www.facebook.com/iegor.nemolovskyi" target="_blank">
-              <img src="https://image.flaticon.com/icons/png/512/33/33702.png" alt="Facebook"/>
-            </a>
-          </li>
-        </ul>
+    <!--HEADER-->
+    <header>
+      <nav class="nav container">
+        <h1 class="h-nav">OKEAN ELZY</h1>
+        <table class="nav-t">
+          <tr>
+            <td class="nav-tborder">
+            </td>
+            <td class="tcenter">
+              <ul class="h-nav">
+                <li>
+                  <a href="../projects.html">HOME</a>
+                </li>
+                <li>
+                  <a href="pages/news.html">NEWS</a>
+                </li>
+                <li>
+                  <a href=#>TOUR DATES</a>
+                </li>
+                <li>
+                  <a href=#>THE BAND</a>
+                </li>
+                <li>
+                  <a href=#>MUSIC</a>
+                </li>
+                <li>
+                  <a href=#>VIDEO</a>
+                </li>
+                <li>
+                  <a href=#>CONTACTS</a>
+                </li>
+              </ul>
+            </td>
+            <td class="nav-tborder">
+              <ul class="h-lang">
+                <li>
+                  <a href=#>UKR</a>
+                </li>
+                <li>
+                  <a href=#>RUS</a>
+                </li>
+                <li>
+                  <a href=#>ENG</a>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
       </nav>
-    </div>
+    </header>
+    <!--BODY-->
+    <main>
+      <!--New album cover-->
+      <div class="new-album-cower">
+        <a href="#" target="_blank">
+          <img src="img/skilky_nas.jpg" alt="Skilky nas albym cover"/>
+        </a>
+      </div>
+    </main>
+    <!--FOOTER-->
+    <footer class="nav">
+      <div>
+        <nav class="footer-nav">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/user/okeanelzyofficial" target="_blank">
+              <img src="img/slink/youtube.png" alt="Youtube logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/okeanelzy" target="_blank">
+                <img src="img/slink/twitter.png" alt="Twitter logo"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/okeanelzyofficial" target="_blank">
+                <img src="img/slink/facebook.png" alt="Facebook logo"/>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copyright">
+        <span>
+          <a href="http://www.okeanelzy.com/en/" target="_blank">
+            © 2013 Okean Elzy
+          </a>
+        </span><br/>
+        <span>Any unauthorized copying, distribution, or other use of the phonograms is prohibited.</span>
+      </div>
     </footer>
+  </body>
 </html>
