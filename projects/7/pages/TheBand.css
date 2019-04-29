@@ -1,0 +1,52 @@
+a {
+  text-decoration: none;
+  color: #CECECE;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.topic_header {
+  text-align: center;
+  color: #CECECE;
+  font-size: 3em;
+  text-decoration: underline;
+  padding: 50px 0;
+}
+.text_header {
+  text-align: center;
+  color: #CECECE;
+}
+.header {
+  background-color: black;
+  background-image: url("img/band.jpg");
+  background-position: center;
+  height: auto;
+  background-repeat: no-repeat;
+  padding: 150px 0 10px;
+}
+
+.band_h {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.band_list {
+  text-align: center;
+}
+
+.band_list li{
+  display: inline-block;
+}
+
+.participant {
+  margin: 30px 30px 50px 30px;
+}
+
+.pt_name {
+  font-weight: bold;
+}
