@@ -1,5 +1,2 @@
-# My-resume
-It is my learning project. I'm working on it continuously.
-Used instruments:
-  - HTML
-  - CSS
+# Resume
+It is one of the first my learning projects to learn HTML and CSS
